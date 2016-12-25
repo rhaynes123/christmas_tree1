@@ -14,15 +14,12 @@ namespace christmas_tree1
 				for (int j = 0; j < i; j++)
 				{
 					string tree_branch = new string('*', j);
-					Console.WriteLine(tree_branch.PadLeft(numTri + 3)+ "*"+ tree_branch);
+					Console.WriteLine(tree_branch.PadLeft(numTri + 3) + "*" + tree_branch);
 
 				}
 
 			}
-
-			Console.WriteLine(line_point);
-			Console.WriteLine(line_point);
-			Console.WriteLine(line_point);
+			Console.WriteLine(line_point+"\n"+line_point+"\n"+line_point);
 			//TODO fix the above line of code. It's poor practice for there to be this many duplications of code
 
 			Console.WriteLine(tree_stump);
